@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #0a0a0a; */
+    background: linear-gradient(135deg, #140105, rgb(118, 11, 19) );
+  }
+  .bmi-container {
+    max-width: 400px;
+    margin: 218px auto;
+    padding: 44px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    
+  }
+  h1 {
+    color: rgb(210, 17, 17);
+  }
+  .input-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+  }
+  .input-group input,
+  .height-unit {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .height-group .height-input {
+    display: flex;
+    gap: 10px;
+  }
+  .height-group input {
+    flex-grow: 1;
+  }
+  .height-unit {
+    width: auto;
+    flex-basis: 60px;
+  }
+  button {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #218838;
+  }
+  .result {
+    margin-top: 20px;
+  }
+  .result h2 {
+    font-size: 24px;
+    color: #1a1616;
+  }
+  .result p {
+    font-size: 18px;
+    color: #d80f0f;
+  }

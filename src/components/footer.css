@@ -1,0 +1,46 @@
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+  
+}
+
+
+footer.highlight {
+    color: rgb(255, 0, 0);
+}
+.highlight{
+    color: rgb(255, 0, 0);
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+
+    
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    /* justify-content: bottom right;
+    align-items: bottom right; */
+}
+
+.privacy {
+    text-align: end;
+}
+.content{
+    font-size:2rem;
+    font-weight: bold;
+    justify-content: left;
+    align-items: left;
+    font-family: system-ui;
+
+}
