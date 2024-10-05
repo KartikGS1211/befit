@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import './bmi.css'
-import { Link } from 'react-router-dom';
 
 const bmi=() => {
   const [weight, setWeight] = useState('');
