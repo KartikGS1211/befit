@@ -17,17 +17,17 @@ const Register = () => {
     const user = { name, email, password };
     console.log("Registered: ",  user);
 
-    // register(user)
-    //   .then((response) => {
-    //     console.log('Registration successful:', response);
-    //     setSuccessMessage('Registration successful! Please log in.');
-    //     setErrorMessage('');  // Clear any error messages
-    //   })
-    //   .catch((error) => {
-    //     console.error('Registration failed:', error);
-    //     setErrorMessage('Registration failed. Please try again.');
-    //     setSuccessMessage('');  // Clear any success message
-    //   });
+    register(user)
+      .then((response) => {
+        console.log('Registration successful:', response);
+        setSuccessMessage('Registration successful! Please log in.');
+        setErrorMessage('');  // Clear any error messages
+      })
+      .catch((error) => {
+        console.error('Registration failed:', error);
+        setErrorMessage('Registration failed. Please try again.');
+        setSuccessMessage('');  // Clear any success message
+      });
   };
 
   return (
