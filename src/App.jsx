@@ -14,6 +14,7 @@ function App() {
   return (
     <>
       <Routes>
+        <Route path="/" element={<Register />} />
         <Route path="/home" element={<Header />} />
         <Route path="/about" element={<About />} />
         {/* <Route path="/user" element={<user />} /> */}

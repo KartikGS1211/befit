@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './register.css';
 import img from '../assets/images/befitlogo.jpg';
-import { Link } from 'react-router-dom';
+import { Link,useNavigate } from 'react-router-dom';
 import { register } from '../services/user-service';
 
 const Register = () => {
@@ -10,6 +10,8 @@ const Register = () => {
   const [name, setName] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
   const [successMessage, setSuccessMessage] = useState('');
+
+  const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -22,6 +24,7 @@ const Register = () => {
         console.log('Registration successful:', response);
         setSuccessMessage('Registration successful! Please log in.');
         setErrorMessage('');  // Clear any error messages
+        navigate('/home');
       })
       .catch((error) => {
         console.error('Registration failed:', error);
