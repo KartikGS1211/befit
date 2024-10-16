@@ -19,13 +19,18 @@ const navbar = () => {
           <div className="text"><span className="red"> BEFIT </span> FITNESS </div>
           </div>
         <nav>
-          <ul>
-            <li><Link to="/home">Home</Link></li>
-            <li><Link to="/about">About</Link></li>
-            <li><Link to="/user">User</Link></li>
-            <li><Link to="/login" className="signup-btn">Login</Link></li>
+          <ul class="nav-list">
+            <li className="nav-item"><Link to="/home" className="nav-link">Home</Link>
+            <span class="underline"></span></li>
+            <li className="nav-item"><Link to="/about" className="nav-link">About</Link>
+            <span class="underline"></span></li>
+            <li className="nav-item"><Link to="/user" className="nav-link">User</Link>
+            <span class="underline"></span></li>
+            <li className="nav-item"><Link to="/login" className="signup-btn">Login</Link>
+            <span class="underline"></span></li>
           </ul>
         </nav>
+        
       </header>
     
     </>

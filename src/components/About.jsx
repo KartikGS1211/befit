@@ -21,11 +21,11 @@ const FitnessPage = () => {
           
           <Card title="DIET">
             <p>Personalized diets are tailored nutrition plans designed to meet an individual's unique needs and goals. Unlike generic diets, they take into account factors like age, weight, body composition, metabolic rate, health conditions, and lifestyle. Personal diet plans also consider food preferences (e.g., vegetarianism or veganism) and personal goals, like weight loss, muscle gain, or improved energy levels.</p>
-            <Link to="/Diet" ><button>CLICK</button></Link>
+            <Link to="/Diet" ><button>CLICK ME!</button></Link>
           </Card>
           
           <Card title="WORKOUT">
-            <p>A personalized workout aligns with your specific fitness goals, whether it's weight loss, muscle building, or endurance. It considers your current fitness level, available equipment, time, and any limitations. By focusing on targeted exercises, it helps you achieve results faster and more efficiently, optimizing your progress.</p>
+            <p>A Personalized workout aligns with your specific fitness goals, whether it's weight loss, muscle building, or endurance. It considers your current fitness level, available equipment, time, and any limitations. By focusing on targeted exercises, it helps you achieve results faster and more efficiently, optimizing your progress.</p>
             <Link to="/Workout" ><button>VIEW CONTENT</button></Link>
           </Card>
         </div>
@@ -37,12 +37,10 @@ const FitnessPage = () => {
           </Card>
           
           <Card title="PERSONAL TRAINING" >
-            <p>GET YOUR WORKOUT PLANED WITH OUR EXPERT TRAINER UNDER EXCELLENT GUIDANCE AND YEARS OF EXPERIENCE TO SEE A BETTER VERSION OF YOURSELF.</p>
+            <p>Get your workout planed with our expert trainer under excellent guidance and years of experience to see a better version of yourself. </p>
             <Link to="/Training" ><button>VIEW</button></Link>
           </Card>
-          <Card title="" buttonText="">
-            
-          </Card>
+          
         </div>
       </main>
       

@@ -112,6 +112,13 @@
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    transition: all 0.3s ease;
+}
+.free-lesson-btn:hover {
+  background-color: #fff;
+  color: #ff5252;
+  border: 2px solid #ff5252;
+  box-shadow: 5px 5px 0px #ff5252;
 }
 .background-image  {
     width: 100%;
