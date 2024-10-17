@@ -41,7 +41,7 @@ const Register = () => {
         </div>
         <h2>Register to BEFIT</h2>
         <form onSubmit={handleSubmit}>
-          <div className="input-group">
+          <div className="register-input-group">
             <label htmlFor="name">Name</label>
             <input
               type="text"
@@ -51,7 +51,7 @@ const Register = () => {
               required
             />
           </div>
-          <div className="input-group">
+          <div className="register-input-group">
             <label htmlFor="email">Email</label>
             <input
               type="email"
@@ -61,7 +61,7 @@ const Register = () => {
               required
             />
           </div>
-          <div className="input-group">
+          <div className="register-input-group">
             <label htmlFor="password">Password</label>
             <input
               type="password"

@@ -43,8 +43,6 @@ const HomePage = () => {
           <p>
             With a user-friendly interface and motivation boosts, achieving your fitness goals has never been easier or more fun!
           </p>
-          {/* <a href="#free-lesson" className="free-lesson-btn">Take a Free Lesson</a> */}
-          {/* <Link> </Link> */}
           <Link to="/Freelesson" className="free-lesson-btn">Take a Free Lesson</Link>
         </div>
       </section>

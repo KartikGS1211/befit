@@ -24,7 +24,7 @@ const LoginPage = () => {
         </div>
         <h2>Login to BEFIT</h2>
         <form onSubmit={handleSubmit}>
-          <div className="input-group">
+          <div className="login-input-group">
             <label htmlFor="email">Email</label>
             <input
               type="email"
@@ -34,7 +34,7 @@ const LoginPage = () => {
               required
             />
           </div>
-          <div className="input-group">
+          <div className="login-input-group">
             <label htmlFor="password">Password</label>
             <input
               type="password"
