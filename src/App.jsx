@@ -5,7 +5,11 @@ import Header from './components/Header';
 import About from './components/About';
 import Login from './components/Login';
 import Register from './components/Register';
-import Bmi from './components/Bmi'
+import Freelesson from './components/Freelesson';
+import Bmi from './components/aboutcomponent/Bmi'
+import Workout from './components/aboutcomponent/Workout'
+
+
 
 import {Routes, Route} from 'react-router-dom';
 
@@ -21,6 +25,8 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/Bmi" element={<Bmi />} />
+        <Route path="/Workout" element={<Workout />} />
+        <Route path="/freelesson" element={<Freelesson />} />
        
       </Routes>
         

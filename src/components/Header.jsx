@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './header.css';
 import handimage from '../assets/images/handimage.jpg';
 import dumbbelllogo from '../assets/images/dumbbelllogo.png';
@@ -42,7 +43,9 @@ const HomePage = () => {
           <p>
             With a user-friendly interface and motivation boosts, achieving your fitness goals has never been easier or more fun!
           </p>
-          <a href="#free-lesson" className="free-lesson-btn">Take a Free Lesson</a>
+          {/* <a href="#free-lesson" className="free-lesson-btn">Take a Free Lesson</a> */}
+          {/* <Link> </Link> */}
+          <Link to="/Freelesson" className="free-lesson-btn">Take a Free Lesson</Link>
         </div>
       </section>
 
