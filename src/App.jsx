@@ -6,11 +6,10 @@ import About from './components/About';
 import Login from './components/Login';
 import Register from './components/Register';
 import Freelesson from './components/Freelesson';
-import Bmi from './components/aboutcomponent/Bmi'
-import Workout from './components/aboutcomponent/Workout'
-
-
-
+import Bmi from './components/aboutcomponent/Bmi';
+import Workout from './components/aboutcomponent/Workout';
+import Goal from './components/aboutcomponent/Goal';
+import Training from './components/aboutcomponent/Training';
 import {Routes, Route} from 'react-router-dom';
 
 function App() {
@@ -27,6 +26,8 @@ function App() {
         <Route path="/Bmi" element={<Bmi />} />
         <Route path="/Workout" element={<Workout />} />
         <Route path="/freelesson" element={<Freelesson />} />
+        <Route path="/Goal" element={<Goal/>} />
+        <Route path="/Training" element={<Training/>} />
        
       </Routes>
         

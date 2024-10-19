@@ -1,10 +1,12 @@
 import { Dumbbell } from "lucide-react";
 import './workout.css'
+// import body from '../assets/images/body.jpg';
 
 export default function WorkoutPage() {
   return (
     <div className="workout-container">
       <div className="header">
+      <div class="main-image"></div>
         <div className="input-section">
           <div className="input-group">
             <label htmlFor="goal" className="input-label">
@@ -31,15 +33,13 @@ export default function WorkoutPage() {
         </div>
         <div className="icon-section">
           <Dumbbell className="dumbbell-icon" />
-          {/* <img src={dumbimage} className="dumbbell-icon" /> */}
           <span className="icon-label">WORKOUT</span>
         </div>
       </div>
-
       <button className="show-workout-btn">SHOW WORKOUT</button>
-
       <div className="splits-section">
         <h2>SPLITS</h2>
+
       </div>
     </div>
   );

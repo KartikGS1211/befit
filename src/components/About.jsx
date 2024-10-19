@@ -31,9 +31,9 @@ const FitnessPage = () => {
         </div>
         
         <div className="grid-container">
-          <Card title="GOALS" >
+          <Card title="GOAL" >
             <p>Unlock your full potential and achieve your fitness goals with our 21-day challenge—designed to transform your body and mindset in just three weeks!</p>
-            <Link to="/Goals" ><button>START</button></Link>
+            <Link to="/Goal" ><button>START</button></Link>
           </Card>
           
           <Card title="PERSONAL TRAINING" >

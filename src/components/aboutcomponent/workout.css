@@ -9,12 +9,17 @@
   
   /* Header Section */
   .header {
-    background-color: #d41919; /* Red background */
+    /* background-color: #d41919; Red background */
     padding: 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+  /* .main-image {
+    flex-grow: 1;
+    background-image: url('') no-repeat center center;
+    background-size: cover;
+} */
   
   .input-section {
     display: flex;
@@ -71,7 +76,6 @@
   /* Show Workout Button */
   .show-workout-btn {
     width: 20%;
-    
     padding: 12px;
     background-color: white;
     color:black;
