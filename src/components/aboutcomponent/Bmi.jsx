@@ -34,6 +34,7 @@ const bmi=() => {
   };
 
   return (
+    <div className='gradient-page'>
     <div className="bmi-container">
       <h1>BEFIT BMI Calculator</h1>
       <form onSubmit={calculateBMI}>
@@ -67,7 +68,7 @@ const bmi=() => {
             </select>
           </div>
         </div>
-        <button type="submit">Calculate BMI</button>
+        <button type="submit" className="calculator">Calculate BMI</button>
       </form>
       {bmi && (
         <div className="result">
@@ -75,6 +76,7 @@ const bmi=() => {
           <p>{message}</p>
         </div>
       )}
+    </div>
     </div>
   );
 }

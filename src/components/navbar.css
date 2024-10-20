@@ -38,9 +38,7 @@
     padding: 10px 20px;
     border-radius: 5px;
 }
-/* .signup-btn:hover {
-    color: rgb(69, 236, 255);
-} */
+
 .text{
     font-size: x-large;
     font-family: system-ui;
@@ -48,6 +46,7 @@
 }
 .nav-item{
     position: relative;
+    font-weight: 400;
 }
 .nav-list{
     list-style-type: none;

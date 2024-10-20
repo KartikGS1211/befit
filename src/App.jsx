@@ -9,6 +9,7 @@ import Freelesson from './components/Freelesson';
 import Bmi from './components/aboutcomponent/Bmi';
 import Workout from './components/aboutcomponent/Workout';
 import Goal from './components/aboutcomponent/Goal';
+import Diet from './components/aboutcomponent/Diet';
 import Training from './components/aboutcomponent/Training';
 import {Routes, Route} from 'react-router-dom';
 
@@ -26,8 +27,10 @@ function App() {
         <Route path="/Bmi" element={<Bmi />} />
         <Route path="/Workout" element={<Workout />} />
         <Route path="/freelesson" element={<Freelesson />} />
-        <Route path="/Goal" element={<Goal/>} />
+        <Route path="/Diet" element={<Diet />} />
         <Route path="/Training" element={<Training/>} />
+        <Route path="/Goal" element={<Goal/>} />
+        
        
       </Routes>
         

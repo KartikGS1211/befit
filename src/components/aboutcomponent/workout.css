@@ -1,103 +1,100 @@
-/* Global container */
-.workout-container {
-    min-height: 100vh;
-    background-color: black;
-    color: white;
-    font-family: 'Arial', sans-serif;
-    padding: 16px;
-  }
-  
-  /* Header Section */
-  .header {
-    /* background-color: #d41919; Red background */
-    padding: 16px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  /* .main-image {
-    flex-grow: 1;
-    background-image: url('') no-repeat center center;
-    background-size: cover;
-} */
-  
-  .input-section {
-    display: flex;
-    flex-grow: 1;
-    gap: 20px;
-    flex-direction: column;
-  }
-  
-  .input-group {
-    margin-bottom: 10px;
-    width: 80%;
-    padding-left: 50px;
-  }
-  
-  .input-label {
-    display: block;
-    margin-bottom: 5px;
-    /* padding: 5px; */
-    font-size: 14px;
-    font-weight: bold;
-    color: white;
-    
-  }
-  
-  .custom-input {
-    width: 100%;
-    padding: 10px;
-    margin-right: 5px;
-    border-radius: 15px;
-    border: none;
-    background-color: white;
-    color: black;
-  }
-  
-  .icon-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 16px;
-  }
-  
-  .dumbbell-icon {
-    width: 200px;
-    height: 200px;
-    padding-right: 50px;
-  }
-  
-  .icon-label {
-    font-size: 14px;
-    font-weight: bold;
-    margin-top: 4px;
-  }
-  
-  /* Show Workout Button */
-  .show-workout-btn {
-    width: 20%;
-    padding: 12px;
-    background-color: white;
-    color:black;
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
-    margin-top: 16px;
-    cursor: pointer;
-  }
-  
-  .show-workout-btn:hover {
-    background-color: #f0f0f0;
-  }
-  
-  /* Splits Section */
-  .splits-section {
-    margin-top: 32px;
-  }
-  
-  .splits-section h2 {
-    font-size: 30px;
-    font-weight: bold;
-    color: white;
-  }
-  
+.container-workout {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.workout-image-workout{
+  background-image: url("../../assets/images/body.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0 0;
+}
+
+.input-section-workout {
+  background: rgba(255, 255, 255, 0.112); /* Semi-transparent white */
+  padding: 20px;
+  color: white;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(5px); /* Blur effect for the glassmorphism */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(28, 7, 7, 0.3); /* Light border for the glass effect */
+}
+
+.heading-workout {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.input-field-workout{
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.workout-section-workout {
+  /* background-color: #fff; */
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.112); /* Semi-transparent white */
+  padding: 20px;
+  /* color: white; */
+  /* margin-bottom: 20px; */
+  border-radius: 10px;
+  backdrop-filter: blur(5px); /* Blur effect for the glassmorphism */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Light border for the glass effect */
+}
+
+.show-workout-btn {
+  display: block;
+  margin-bottom: 20px;
+  width: 100%;
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+.show-workout-btn:hover{
+  background-color: #000000;
+  color: #e2e2e2;
+  border: 1px solid #c0c0c0;
+  box-shadow: 5px 5px 0px #c0c0c0;
+}
+.workout-plan-workout {
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.182); /* Semi-transparent white */
+  border-radius: 10px;
+  backdrop-filter: blur(5px); /* Blur effect for the glassmorphism */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  color: white;
+  margin-top: 20px;
+}
+
+.plan-title-workout {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.workout-details-workout {
+  padding: 10px;
+}
+
+.details-heading-workout {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.workout-list-workout {
+  list-style-type: disc;
+  padding-left: 20px;
+}

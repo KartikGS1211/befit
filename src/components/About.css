@@ -25,9 +25,9 @@ h1 {
 }
 
 
-h2 {
-  font-size: 2.5rem;
-  font-weight: bold;
+ .your{
+  font-size:2.5em;
+  font-weight: bolder;
   padding-bottom: 4rem;
   text-align: center;
 }
@@ -58,10 +58,10 @@ main h2{
 }
 
 /* Card Component Styles */
-.card {
-  background-color: #333;
+.card-about {
+  background-color:rgba(128, 128, 128, 0.519);
   padding: 1.5rem;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   border: 1px solid red;
 }
 
@@ -70,14 +70,17 @@ main h2{
   font-weight: bold;
   margin-bottom: 1rem;
 }
-
+.topic{
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+}
 .card p {
   margin-bottom: 1rem;
   font-size: 1rem;
-  color: #ddd;
+  color: #ffffff;
 }
 
-.card button {
+.card-button {
   background-color: red;
   color: white;
   padding: 0.5rem 1rem;
@@ -89,7 +92,7 @@ main h2{
   font-weight: bold;
 }
 
-.card button:hover {
+.card-button:hover {
   background-color: #fff;
   color: #ff5252;
   border: 2px solid #ff5252;
